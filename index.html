@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-Forecast</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+<div class="card">
+    <div class="cloudpic"></div>
+    <div class="heading">Weather Forecast </div>
+    <button class="button-8" role="button" >
+        <span class="text">Let Start</span>
+     </button>
+     <!-- <span class="warning">Some locations may be unavailable due to API limits. Please try nearby areas. Thank you</span> -->
+</div>
+<!-- main  -->
+<div class="search">
+    <i class="fa-solid fa-magnifying-glass-location"></i>
+    <input class="location" placeholder="Search Location or Nearby Location">
+    <button class="locationsearch">Search</button>
+</div>
+
+
+<!-- changing all fetched data in window -->
+<div class="onscreenlocation mainscreencontent">__________</div>
+<div class="onscreenregion mainscreencontent2">Region: __</div>
+<div class="onscreentemp mainscreencontent3"> °C</div>
+<div class="onscreenfeelslike mainscreencontent4">Feels Like:  °C</div>
+<div class="onscreenicon mainscreencontent5"></div>
+<div class="onscreentext mainscreencontent6">_____</div>
+<!-- windspeed humidity pressure -->
+ <div class="windhumiditypressurebox mainscreencontent7">
+    <div class="whpbox"><i class="fa-solid fa-wind"></i> <span class="onscreenwind_kph">kph</span><p>Wind Speed</p></div>
+    <div class="whpbox"><i class="fa-solid fa-droplet"></i> <span class="onscreenhumidity">%</span><p>Humidity</p></div>
+    <div class="whpbox"><i class="fa-brands fa-wpressr"></i><span class="onscreenpressure_mb"> mb</span><p>Pressure</p></div>
+ </div>
+ <button class="Get-Detailed-Infromation">Get Detailed Info <i class="fa-solid fa-circle-chevron-right"></i></button>
+<!-- all molecules parameter -->
+ <div class=" all-molecules-parameter mainscreencontent8">
+    <div class="molecules"><p>Heat Index</p><span class="onscreenheatindex_c"></span><p class="statushi"></p></div>
+    <div class="molecules"><p>Dew-Point </p><span class="onscreendewpoint_c"></span><p class="statusdp"></p></div>
+    <div class="molecules"><p>CO</p><span class="onscreenco"></span><p class="statusco"></p></div>
+    <div class="molecules"><p>Wind Degree</p><span class="onscreenwind_degree"></span></div>
+    <div class="molecules"><p>NO₂</p><span class="onscreenno2"></span><p class="statusno2"></p></div>
+    <div class="molecules"><p>O₃</p><span class="onscreeno3"></span><p class="statuso3"></p></div>
+    <div class="molecules"><p>PM 2.5</p><span class="onscreenpm2_5"></span><p class="statuspm25"></p></div>
+    <div class="molecules"><p>PM 10</p><span class="onscreenpm10"></span><p class="statuspm10"></p></div>
+    <div class="molecules"><p>SO₂</p><span class="onscreenso2"></span><p class="statusso2"></p></div>
+    <div class="molecules"><p>UV</p><span class="onscreenuv"></span><p class="statusuv"></p></div>
+    <div class="molecules"><p>GBDIn</p><span class="onscreengbdi"></span><p class="statusgbdin"></p></div>
+    
+    
+ </div>
+
+<div class="goto2nd"><i class="fa-solid fa-chevron-left"></i></div>
+<script src="index.js"></script>
+</body>
+</html>
