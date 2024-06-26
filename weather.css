@@ -162,7 +162,7 @@ margin-bottom: 5px;;
   position: fixed;
   background-color: rgb(255, 255, 255);
   height: 30px;
-  margin-top: -410px;
+  margin-top: -510px;
   width: 90%;
   display: none; /*for correct change it to mome*/
   justify-content: left;
@@ -329,7 +329,7 @@ width: 10px;
 /*windspeed pressure humidity*/
 .windhumiditypressurebox{
   position: fixed;
-  margin-top: 170px;
+  margin-top: 200px;
   height: fit-content;
   display: none;
   justify-content: space-evenly;
@@ -412,7 +412,7 @@ margin: 5px;
   color: #fff;
   justify-content: center;
   align-items: center;
-  margin-top: 420px;
+  margin-top: 460px;
   font-feature-settings: "ss01", "cv10", "calt"0, "liga"0;
   font-size: 16px;
   font-weight: 550;
