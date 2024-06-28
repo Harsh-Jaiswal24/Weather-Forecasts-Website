@@ -161,7 +161,7 @@ onscreengbdefraindex.innerHTML=gbdefraindex;
 
 onscreenheatIndex_c.innerHTML=heatindex_c;
 onscreendewpoint_c.innerHTML=`${dewpoint_c} °C`;
-onscreenco.innerHTML=`${co} µg/m³`;
+onscreenco.innerHTML=`${co} ppbb`;
 onscreenwind_degree.innerHTML=`${wind_degree}°`;
 onscreenno2.innerHTML=`${no2} µg/m³`;
 onscreeno3 .innerHTML=`${o3} µg/m³`;
